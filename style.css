@@ -1,0 +1,492 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: rgba(46, 46, 47, 0.6);
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    /* position: ; */
+}
+
+#navbar .logo {
+    padding-left: 80px;
+    color: rgb(240, 230, 230);
+    font-size: 25px;
+    font-weight: bold;
+
+
+
+
+}
+
+#navbar .logo :hover {
+    background-color: #000;
+    color: aqua;
+}
+
+#navbar .nav_item {
+
+    display: flex;
+    gap: 60px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+    padding-right: 40px;
+}
+
+#navbar a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: aqua;
+    background-color: black;
+    border-radius: 1px;
+    padding: auto;
+
+}
+
+#home {
+    color: rgb(14, 14, 14);
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/IMG-20241124-WA0001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+
+}
+
+#home .home_item {
+    width: 600px;
+    height: 200px;
+    /* background-color: aqua; */
+    padding: 10px;
+}
+
+#home .home_item p {
+    padding: 10px;
+    font-size: 15px;
+    font-style: italic;
+    text-shadow: 15px 15px 8px black;
+    color: rgb(24, 219, 115);
+}
+
+#home .home_item .heading {
+    font-size: 30px;
+}
+
+mark {
+    color: aqua;
+    background-color: black;
+}
+
+#home button {
+    color: wheat;
+    background-color: red;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 100px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.card .card_item {
+    margin-top: 120px;
+    margin-right: 20px;
+    width: 300px;
+    height: 250px;
+    color: beige;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 15px 15px 15px 5px gray;
+}
+
+.card .card_item h1 {
+    padding: 10px;
+    color: black;
+}
+
+.card .card_item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding: 10px;
+}
+#meeting{
+    background-image: url(img/IMG-20241124-WA0001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+.meetings {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(24 24 24 / 80%);
+    text-align: center;
+    padding: 20px;
+
+}
+
+#meeting_par {
+    display: grid;
+    grid-template-columns: 400px auto auto;
+
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.meetings h1 {
+    color: white;
+}
+
+.meetings hr {
+    /* padding: 10px; */
+    margin: 10px;
+}
+
+.meetings .meeting_item {
+    width: 100%;
+    height: 280px;
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 18px;
+    margin: 10px;
+}
+
+.meeting_item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.meeting_item li {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.meeting_item button {
+    background-color: #d9534f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.meeting_item h4 {
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: 5px 5px 10px blue;
+    padding-bottom: 20px;
+
+
+}
+
+.meeting_item p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: 200;
+    font-style: italic;
+    text-shadow: 15px 15px 10px grey;
+}
+
+.meetings .meeting_item1 img {
+
+    width: 200px;
+    border-radius: 10px;
+    height: 150px;
+    
+    
+}
+
+.meetings .meeting_item1 {
+    margin-left: 20px;
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-top: 11px;
+}
+
+.meeting_item1 h4 {
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: 5px 5px 10px blue;
+    padding-bottom: 20px;
+
+
+}
+
+.meeting_item1 p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: 200;
+    font-style: italic;
+    text-shadow: 15px 15px 10px grey;
+}
+
+.meetings .meeting_item2 {
+    margin: 20px;
+    margin-top: 40px;
+    width: 200px;
+    height: 370px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.meeting_item2 h4 {
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: 5px 5px 10px blue;
+    padding-bottom: 20px;
+
+
+}
+
+.meeting_item2 p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: 200;
+    font-style: italic;
+    text-shadow: 15px 15px 10px grey;
+}
+
+.apply {
+
+    width: 100%;
+    height: 100vh;
+    background-color: #383737;
+    /* background-repeat: no-repeat; */
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center; 
+}
+.apply{
+    /* color: rgb(14, 14, 14);
+    width: 100%;
+    height: 100vh; */
+    background-image: url(img/image7.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-color: black; */
+    
+}
+.apply .container {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(106, 107, 106);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.apply .container h2 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.apply .container p {
+    font-size: 15px;
+    color: #fff;
+    font-style: italic;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.apply .container button {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.apply .container_item {
+    width: 550px;
+    height: 450px;
+    padding: 20px;
+    background-color: white;
+    color: #000;
+
+
+    text-align: center;
+    border-radius: 8px;
+}
+
+.apply .container_item p {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.apply .container_item h5 {
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+.course {
+    width: 100%;
+    height: 100vh;
+    background-color: #5d5c5c;
+}
+
+.course h2 {
+    color: white;
+    text-align: left;
+    padding-left: 40px;
+    padding: 20px;
+    /* font-size: large;*/
+    font-style: italic;
+    font-weight: 600;
+}
+
+.course_item {
+    width: 200px;
+    height: 250px;
+    background-color: wheat;
+    margin: 20px;
+}
+
+#box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.course {
+    justify-content: center;
+}
+
+.course_item img {
+    width: 200px;
+    height: 100px;
+
+}
+
+.course_item p {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.contacts .firstcontact {
+    width: 800px;
+    height: 420px;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.contacts .firstcontact h2 {
+    padding: 10px;
+}
+
+.contacts .firstcontact input {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    font-style: italic;
+    color: black;
+}
+
+.contacts .firstcontact textarea {
+    width: 600px;
+    height: 150px;
+    border-radius: 20px;
+    padding: 20px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.contacts .secondcontact {
+    width: 220px;
+    height: 450px;
+    background-color: #d33731;
+    color: whitesmoke;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contacts .secondcontact p {
+    /* font-size: 10px; */
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    /* margin: 5px; */
+}
+
+.contacts .secondcontact h4 {
+    padding: 10px;
+}
+
+.contacts .secondcontact a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#footers {
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    /* justify-items: center; */
+}
+
+#footers h5 {
+    padding: 20px;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+#footers h6 {
+    font-size: 15px;
+}
